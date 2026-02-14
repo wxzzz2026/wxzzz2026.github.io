@@ -4,7 +4,7 @@
 colorScheme = "ocean"
 
 # 默认外观: "light" 或 "dark"
-defaultAppearance = "dark"
+defaultAppearance = "light"
 
 # 自动切换明暗模式
 autoSwitchAppearance = true
