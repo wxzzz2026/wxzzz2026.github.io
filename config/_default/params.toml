@@ -1,0 +1,75 @@
+# -- Blowfish 主题参数配置 --
+
+# 配色方案：可选 blowfish, avocado, fire, ocean, forest, princess, neon, bloody, terminal, marvel, noir, autumn, congo, slate
+colorScheme = "ocean"
+
+# 默认外观: "light" 或 "dark"
+defaultAppearance = "dark"
+
+# 自动切换明暗模式
+autoSwitchAppearance = true
+
+# 启用搜索
+enableSearch = true
+
+# 在首页显示最近文章
+showRecent = true
+recentLimit = 5
+
+# 显示滚动到顶部按钮
+showScrollToTop = true
+
+# 文章元数据
+[article]
+  showDate = true
+  showDateUpdated = true
+  showAuthor = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = true
+  showBreadcrumbs = true
+  showPagination = true
+
+# 首页布局: "page", "profile", "hero", "card", "background", "custom"
+[homepage]
+  layout = "background"
+  homepageImage = ""
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/posts"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+
+# 页眉
+[header]
+  layout = "fixed"
+
+# 页脚
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+# 列表页面
+[list]
+  showCards = true
+  groupByYear = true
+  cardView = true
+
+# 分类相关
+[taxonomy]
+  showTermCount = true
+  cardView = false
+
+# 站点地图
+[sitemap]
+  excludedKinds = []
+
+# 社交链接图标（可以取消注释并填入你自己的链接）
+# [social]
+#   github = "https://github.com/yourusername"
+#   email = "mailto:your@email.com"

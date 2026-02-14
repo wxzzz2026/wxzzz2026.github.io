@@ -1,0 +1,13 @@
+# -- 中文语言配置 --
+languageCode = "zh-CN"
+languageName = "中文"
+weight = 1
+
+[params]
+  # 你的名字/网站名
+  displayName = "wxzzz2026 的博客"
+  isoCode = "zh-CN"
+
+# 主标题和描述
+title = "wxzzz2026 的博客"
+description = "分享技术，记录成长"

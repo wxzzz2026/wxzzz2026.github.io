@@ -1,0 +1,20 @@
+# -- 站点基本配置 --
+# 部署时改为你的 GitHub Pages 地址，如 https://yourusername.github.io/
+baseURL = "https://wxzzz2026.github.io/"
+# 中文语言
+defaultContentLanguage = "zh-cn"
+# 主题
+theme = "blowfish"
+# 站点标题
+title = "wxzzz2026 的博客"
+
+# 启用 emoji 支持
+enableEmoji = true
+# 启用代码行号
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+# 启用搜索
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
