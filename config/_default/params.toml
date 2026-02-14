@@ -34,7 +34,7 @@ showScrollToTop = true
 # 首页布局: "page", "profile", "hero", "card", "background", "custom"
 [homepage]
   layout = "background"
-  homepageImage = ""
+  homepageImage = "img/background.jpg"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
