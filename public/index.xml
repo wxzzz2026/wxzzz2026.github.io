@@ -1,53 +1,137 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>wxzzz2026 的博客</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on wxzzz2026 的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <copyright>© 2026 </copyright>
-    <lastBuildDate>Sat, 14 Feb 2026 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hugo 博客搭建教程</title>
-      <link>http://localhost:1313/posts/hugo-tutorial/</link>
-      <pubDate>Sat, 14 Feb 2026 10:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/hugo-tutorial/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;📖 前言&#xD;&#xA;    &lt;div id=&#34;-前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e5%89%8d%e8%a8%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;本文记录了使用 Hugo 和 Blowfish 主题搭建个人技术博客的完整过程。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Hello World - 我的第一篇博客</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;🎉 欢迎&#xD;&#xA;    &lt;div id=&#34;-欢迎&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%ac%a2%e8%bf%8e&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;你好，世界！这是我使用 Hugo + Blowfish 主题搭建的技术博客的第一篇文章。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>关于我</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;👋 你好！&#xD;&#xA;    &lt;div id=&#34;-你好&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e4%bd%a0%e5%a5%bd&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;欢迎来到我的技术博客！&lt;/p&gt;&#xA;&lt;p&gt;我是一名热爱技术的开发者，这里是我分享技术心得、学习笔记和个人成长的地方。&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;🔧 技术栈&#xD;&#xA;    &lt;div id=&#34;-技术栈&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e6%8a%80%e6%9c%af%e6%a0%88&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;前端&lt;/strong&gt;: HTML / CSS / JavaScript&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;后端&lt;/strong&gt;: Python&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;工具&lt;/strong&gt;: Git / VS Code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;📫 联系我&#xD;&#xA;    &lt;div id=&#34;-联系我&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e8%81%94%e7%b3%bb%e6%88%91&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;如果你想和我交流，欢迎通过以下方式联系：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;你的GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:your@email.com&#34; &gt;your@email.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;学如逆水行舟，不进则退。&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>搜索</title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/search/</guid>
-      <description></description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wxzzz2026 的博客</title><link>https://wxzzz2026.github.io/</link><description>Recent content on wxzzz2026 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>© 2026</copyright><lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wxzzz2026.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>🎵 乐谱收藏</title><link>https://wxzzz2026.github.io/sheet-music/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate><guid>https://wxzzz2026.github.io/sheet-music/</guid><description>&lt;h2 class="relative group"&gt;🎼 欢迎来到音乐角落
+ &lt;div id="-欢迎来到音乐角落" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e6%ac%a2%e8%bf%8e%e6%9d%a5%e5%88%b0%e9%9f%b3%e4%b9%90%e8%a7%92%e8%90%bd" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;这里收藏了一些经典的乐谱，涵盖了西洋古典与中国传统民乐。希望这些旋律能带给你共鸣。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3 class="relative group"&gt;🎹 钢琴谱 (Piano Sheet Music)
+ &lt;div id="-钢琴谱-piano-sheet-music" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e9%92%a2%e7%90%b4%e8%b0%b1-piano-sheet-music" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;这些是精心挑选的钢琴曲目，适合不同程度的练习。&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;曲名&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;作曲家&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;风格&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;难度&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;月光奏鸣曲&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;贝多芬&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;古典&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;⭐⭐⭐⭐&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;致爱丽丝&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;贝多芬&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;古典&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;⭐⭐&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;夜曲 Op.9 No.2&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;肖邦&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;浪漫&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;⭐⭐⭐⭐&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;德彪西 - 月光&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;德彪西&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;印象&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;卡农&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;帕赫贝尔&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;巴洛克&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;⭐⭐⭐&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+&lt;h3 class="relative group"&gt;🏮 中国民乐谱 (Chinese National Music)
+ &lt;div id="-中国民乐谱-chinese-national-music" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e4%b8%ad%e5%9b%bd%e6%b0%91%e4%b9%90%e8%b0%b1-chinese-national-music" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;民乐之美，在于其深厚的文化底蕴与独特的韵味。这里收录了一些耳熟能详的传统旋律。&lt;/p&gt;</description></item><item><title>Hugo 博客搭建教程</title><link>https://wxzzz2026.github.io/posts/hugo-tutorial/</link><pubDate>Sat, 14 Feb 2026 10:00:00 +0800</pubDate><guid>https://wxzzz2026.github.io/posts/hugo-tutorial/</guid><description>&lt;h2 class="relative group"&gt;📖 前言
+ &lt;div id="-前言" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%89%8d%e8%a8%80" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;本文记录了使用 Hugo 和 Blowfish 主题搭建个人技术博客的完整过程。&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wxzzz2026.github.io/posts/hugo-tutorial/featured.jpg"/></item><item><title>Hello World - 我的第一篇博客</title><link>https://wxzzz2026.github.io/posts/hello-world/</link><pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate><guid>https://wxzzz2026.github.io/posts/hello-world/</guid><description>&lt;h2 class="relative group"&gt;🎉 欢迎
+ &lt;div id="-欢迎" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e6%ac%a2%e8%bf%8e" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;你好，世界！这是我使用 Hugo + Blowfish 主题搭建的技术博客的第一篇文章。&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wxzzz2026.github.io/posts/hello-world/featured.jpg"/></item><item><title>关于我</title><link>https://wxzzz2026.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wxzzz2026.github.io/about/</guid><description>&lt;h2 class="relative group"&gt;👋 你好！
+ &lt;div id="-你好" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e4%bd%a0%e5%a5%bd" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;欢迎来到我的技术博客！&lt;/p&gt;
+&lt;p&gt;我是一名热爱技术的开发者，这里是我分享技术心得、学习笔记和个人成长的地方。&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;🔧 技术栈
+ &lt;div id="-技术栈" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e6%8a%80%e6%9c%af%e6%a0%88" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;前端&lt;/strong&gt;: HTML / CSS / JavaScript&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;后端&lt;/strong&gt;: Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具&lt;/strong&gt;: Git / VS Code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class="relative group"&gt;📫 联系我
+ &lt;div id="-联系我" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e8%81%94%e7%b3%bb%e6%88%91" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;如果你想和我交流，欢迎通过以下方式联系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/" target="_blank" rel="noreferrer"&gt;你的GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href="mailto:your@email.com" &gt;your@email.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;学如逆水行舟，不进则退。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wxzzz2026.github.io/about/featured.jpg"/></item><item><title>搜索</title><link>https://wxzzz2026.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wxzzz2026.github.io/search/</guid><description/><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wxzzz2026.github.io/search/featured.jpg"/></item></channel></rss>

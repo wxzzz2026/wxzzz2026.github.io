@@ -1,0 +1,29 @@
+<div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 z-100">
+  <div id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
+  </div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    {{ partial "header/basic.html" . }}
+  </div>
+  <!-- 彩蛋按钮 - 侧边交互 -->
+  {{ if .IsHome }}
+  <div id="easter-egg-btn" onclick="triggerEasterEgg(this)" title="✨ 发现彩蛋！">
+    🎵
+  </div>
+  <script>
+    function triggerEasterEgg(btn) {
+      btn.classList.add('egg-clicked');
+      // 增加一点震动反馈后跳转
+      setTimeout(() => {
+        window.location.href = '{{ relref . `/sheet-music` }}';
+      }, 450);
+    }
+  </script>
+  {{ end }}
+</div>
+{{ $backgroundBlur := resources.Get "js/background-blur.js" }}
+{{ $backgroundBlur = $backgroundBlur | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm |
+default "sha512") }}
+<script type="text/javascript" src="{{ $backgroundBlur.RelPermalink }}" integrity="{{ $backgroundBlur.Data.Integrity }}"
+  data-blur-id="menu-blur"></script>

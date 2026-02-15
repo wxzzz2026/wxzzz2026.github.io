@@ -1,0 +1,133 @@
+/* ===== 彩蛋按钮样式 - 交互式悬浮球 ===== */
+
+#easter-egg-btn {
+  position: fixed;
+  right: -10px;
+  /* 初始隐藏一部分 */
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  width: 50px;
+  height: 60px;
+  border-radius: 30px 0 0 30px;
+  /* 半圆/蛋形 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+  padding-left: 8px;
+
+  /* 玻璃拟态与渐变背景 */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: none;
+  box-shadow:
+    -5px 5px 20px rgba(0, 0, 0, 0.1),
+    inset 2px 2px 5px rgba(255, 255, 255, 0.2);
+
+  /* 动画 */
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: easter-egg-pulse 3s infinite;
+}
+
+#easter-egg-btn:hover {
+  right: 0;
+  /* 全显 */
+  width: 65px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.4), rgba(139, 92, 246, 0.1));
+  border-color: rgba(139, 92, 246, 0.5);
+  box-shadow:
+    -10px 10px 30px rgba(139, 92, 246, 0.3),
+    inset 2px 2px 8px rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+}
+
+#easter-egg-btn::after {
+  content: '✨';
+  position: absolute;
+  font-size: 12px;
+  top: 5px;
+  right: 15px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#easter-egg-btn:hover::after {
+  opacity: 1;
+  animation: star-spin 2s linear infinite;
+}
+
+@keyframes easter-egg-pulse {
+  0% {
+    transform: translateY(-50%) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-50%) translateX(-5px);
+  }
+
+  100% {
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+@keyframes star-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 点击时的震动反馈 */
+.egg-clicked {
+  animation: egg-shake 0.4s cubic-bezier(.36, .07, .19, .97) both !important;
+}
+
+@keyframes egg-shake {
+
+  10%,
+  90% {
+    transform: translateY(-50%) translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translateY(-50%) translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translateY(-50%) translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translateY(-50%) translate3d(4px, 0, 0);
+  }
+}
+
+/* 暗色模式适配 */
+.dark #easter-egg-btn {
+  background: linear-gradient(135deg, rgba(30, 30, 40, 0.6), rgba(30, 30, 40, 0.3));
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.dark #easter-egg-btn:hover {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(139, 92, 246, 0.2));
+}
+
+@media (max-width: 640px) {
+  #easter-egg-btn {
+    width: 40px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
