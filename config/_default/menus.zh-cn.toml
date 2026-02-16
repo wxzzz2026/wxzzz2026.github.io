@@ -11,6 +11,11 @@
   weight = 15
 
 [[main]]
+  name = "AI钢琴"
+  url = "/ai-piano/index.html"
+  weight = 16
+
+[[main]]
   name = "标签"
   pageRef = "tags"
   weight = 20
