@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on wxzzz2026 的博客</title><link>https://wxzzz2026.github.io/tags/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on wxzzz2026 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>© 2026</copyright><lastBuildDate>Sat, 14 Feb 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://wxzzz2026.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 博客搭建教程</title><link>https://wxzzz2026.github.io/posts/hugo-tutorial/</link><pubDate>Sat, 14 Feb 2026 10:00:00 +0800</pubDate><guid>https://wxzzz2026.github.io/posts/hugo-tutorial/</guid><description>&lt;h2 class="relative group"&gt;📖 前言
- &lt;div id="-前言" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%89%8d%e8%a8%80" aria-label="锚点"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;本文记录了使用 Hugo 和 Blowfish 主题搭建个人技术博客的完整过程。&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wxzzz2026.github.io/posts/hugo-tutorial/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on wxzzz2026 的博客</title>
+    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on wxzzz2026 的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Sat, 14 Feb 2026 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo 博客搭建教程</title>
+      <link>http://localhost:1313/posts/hugo-tutorial/</link>
+      <pubDate>Sat, 14 Feb 2026 10:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/hugo-tutorial/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;📖 前言&#xD;&#xA;    &lt;div id=&#34;-前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-%e5%89%8d%e8%a8%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;本文记录了使用 Hugo 和 Blowfish 主题搭建个人技术博客的完整过程。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/hugo-tutorial/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
