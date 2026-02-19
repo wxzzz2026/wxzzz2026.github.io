@@ -3,81 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>http://localhost/tags/ai/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/ai-piano/</loc>
+    <loc>http://localhost/posts/ai-piano/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/piano/</loc>
+    <loc>http://localhost/tags/piano/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/project/</loc>
+    <loc>http://localhost/tags/project/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost/tags/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/ai-creations/</loc>
+    <loc>http://localhost/ai-creations/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost/posts/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/sheet-music/</loc>
+    <loc>http://localhost/sheet-music/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost/categories/</loc>
     <lastmod>2026-02-14T10:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/github-pages/</loc>
+    <loc>http://localhost/tags/github-pages/</loc>
     <lastmod>2026-02-14T10:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://localhost/tags/hugo/</loc>
     <lastmod>2026-02-14T10:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/hugo-tutorial/</loc>
+    <loc>http://localhost/posts/hugo-tutorial/</loc>
     <lastmod>2026-02-14T10:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>http://localhost/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-02-14T10:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://localhost/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-02-14T10:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>http://localhost/posts/hello-world/</loc>
     <lastmod>2026-02-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://localhost/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2026-02-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/%E5%85%A5%E9%97%A8/</loc>
+    <loc>http://localhost/tags/%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2026-02-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost/about/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost/search/</loc>
   </url>
 </urlset>

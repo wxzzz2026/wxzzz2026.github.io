@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Art Studio - 积木像素转换器</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+SC:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode">
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <i data-lucide="layout-grid" class="logo-icon"></i>
+                <h1>Brick ART<span>Studio</span></h1>
+            </div>
+            <p class="subtitle">将你的照片幻化为极具质感的积木艺术</p>
+        </header>
+
+        <main>
+            <div class="workspace">
+                <div class="control-panel glass-card">
+                    <section class="upload-section">
+                        <div id="drop-zone" class="drop-zone">
+                            <i data-lucide="image-plus" size="48"></i>
+                            <p>拖放图片或选择文件</p>
+                            <button class="btn-primary" id="select-btn">选择图片</button>
+                            <input type="file" id="image-input" accept="image/*" style="display: none;">
+                        </div>
+                    </section>
+
+                    <section class="settings-section">
+                        <div class="setting-group">
+                            <label for="resolution">颗粒精度 (Resolution)</label>
+                            <input type="range" id="resolution" min="20" max="150" value="70">
+                            <span class="value-display" id="res-value">70 px</span>
+                        </div>
+
+                        <div class="setting-group">
+                            <label for="brightness">亮度修正 (Brightness)</label>
+                            <input type="range" id="brightness" min="-50" max="50" value="0">
+                            <span class="value-display" id="bright-value">0</span>
+                        </div>
+
+                        <div class="setting-group">
+                            <label for="contrast">对比度修正 (Contrast)</label>
+                            <input type="range" id="contrast" min="-50" max="50" value="0">
+                            <span class="value-display" id="contrast-value">0</span>
+                        </div>
+
+                        <div class="setting-group">
+                            <label>砖块风格 (Brick Style)</label>
+                            <div class="toggle-group">
+                                <button class="toggle-btn active" data-style="round">圆点积木</button>
+                                <button class="toggle-btn" data-style="square">平滑积木</button>
+                            </div>
+                        </div>
+
+                        <div class="brush-toolset">
+                            <label>画笔工具 (Brush Tools)</label>
+                            <div class="brush-controls">
+                                <button class="tool-btn" id="brush-toggle" title="开启/关闭画笔">
+                                    <i data-lucide="paintbrush"></i>
+                                </button>
+                                <div class="brush-sizes">
+                                    <button class="size-btn active" data-size="1">S</button>
+                                    <button class="size-btn" data-size="2">M</button>
+                                    <button class="size-btn" data-size="3">L</button>
+                                </div>
+                            </div>
+                            <div id="palette-picker" class="palette-picker">
+                                <!-- Colors injected by JS -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="actions">
+                        <button class="btn-secondary" id="reset-btn">
+                            <i data-lucide="rotate-ccw" size="18"></i> 重置
+                        </button>
+                        <button class="btn-success" id="download-btn">
+                            <i data-lucide="download" size="18"></i> 导出图片
+                        </button>
+                    </section>
+
+                    <section class="stats-section">
+                        <h3>颗粒清单 (Inventory)</h3>
+                        <div id="stats-container" class="stats-grid">
+                            <p class="empty-hint">生成后查看颗粒数量</p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="preview-area">
+                    <div class="canvas-wrapper glass-card">
+                        <canvas id="output-canvas"></canvas>
+                        <div id="brush-cursor" class="brush-cursor hidden"></div>
+                        <div id="empty-state" class="empty-state">
+                            <i data-lucide="sparkles" size="64"></i>
+                            <p>上传一张图片开始创作</p>
+                        </div>
+                        <div id="loader" class="loader-overlay hidden">
+                            <div class="brick-loader"></div>
+                            <p>构筑积木中...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Brick Art Studio. 灵感源于无限创意。</p>
+            <p class="disclaimer">声明：本网页纯属个人兴趣爱好制作，非商业用途。</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

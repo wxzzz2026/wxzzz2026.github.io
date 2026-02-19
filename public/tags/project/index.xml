@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on wxzzz2026 的博客</title>
-    <link>http://localhost:1313/tags/project/</link>
+    <link>http://localhost/tags/project/</link>
     <description>Recent content in Project on wxzzz2026 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI 钢琴模拟器</title>
-      <link>http://localhost:1313/posts/ai-piano/</link>
+      <link>http://localhost/posts/ai-piano/</link>
       <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/ai-piano/</guid>
+      <guid>http://localhost/posts/ai-piano/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;项目介绍&#xD;&#xA;    &lt;div id=&#34;项目介绍&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e9%a1%b9%e7%9b%ae%e4%bb%8b%e7%bb%8d&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;这是我利用 AI 辅助开发的一个&lt;strong&gt;全功能 Web 钢琴模拟器&lt;/strong&gt;。它不仅仅是一个简单的玩具，而是一个集成了多种专业特性的音乐工具。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;主要功能：&#xD;&#xA;    &lt;div id=&#34;主要功能&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;高保真音色&lt;/strong&gt;：内置了一套斯坦威 (Steinway) D 级三角钢琴的高精采样音色库，每一个琴键的敲击都经过精心调试。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MIDI 拖放解析&lt;/strong&gt;：你可以直接将电脑上的 &lt;code&gt;.mid&lt;/code&gt; 或 &lt;code&gt;.midi&lt;/code&gt; 文件拖入页面，它会立即解析并自动演奏。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;可视化瀑布流&lt;/strong&gt;：复刻了经典的 Synthesia 风格，音符下落如同瀑布般流畅，配合按键发光效果，视觉体验极佳。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;专业控制面板&lt;/strong&gt;：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;动态力度调节&lt;/strong&gt;：支持调整击键力度灵敏度。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;踏板支持&lt;/strong&gt;：模拟真实的延音踏板效果。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;按键标记&lt;/strong&gt;：初学者可以一键开启键盘上的音名显示。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;技术亮点：&#xD;&#xA;    &lt;div id=&#34;技术亮点&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e6%8a%80%e6%9c%af%e4%ba%ae%e7%82%b9&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;核心引擎&lt;/strong&gt;：基于 &lt;code&gt;Tone.js&lt;/code&gt; 构建音频合成与调度系统。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;解析器&lt;/strong&gt;：使用 &lt;code&gt;MidiPlayer.js&lt;/code&gt; 进行高效的二进制 MIDI 文件解析。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;架构&lt;/strong&gt;：纯前端架构，无后端依赖，加载速度极快。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;本项目完全由 AI辅助编写代码，是探索 AI 编程能力的一个绝佳案例。&lt;/em&gt;&lt;/p&gt;</description>
       
     </item>

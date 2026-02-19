@@ -25,6 +25,7 @@ showPagination: false
 | **赛博朋克都市** | Midjourney | 科幻 | 充满霓虹灯的未来都市景观 |
 | **水墨山水** | Stable Diffusion | 国风 | 传统水墨画意境的 AI 诠释 |
 | **超现实主义梦境** | DALL-E 3 | 奇幻 | 跨越现实与幻想边界的视觉盛宴 |
+| **积木工作室** | [Brick Art Studio](/lego-art/index.html) | 积木像素 | 您的照片幻化为极具质感的积木艺术 |
 
 ---
 
